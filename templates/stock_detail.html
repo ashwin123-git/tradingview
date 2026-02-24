@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{symbol}}</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-6" data-symbol="{{symbol}}">
+
+<a href="/" class="text-blue-500 hover:underline mb-4 inline-block">&larr; Back to dashboard</a>
+
+<h1 class="text-3xl font-bold mb-6">{{symbol}} Details</h1>
+
+<div id="stockInfo" class="bg-white p-4 rounded shadow mb-6"></div>
+<canvas id="stockChart" class="bg-white p-2 rounded shadow"></canvas>
+
+<script src="/static/js/stock.js"></script>
+</body>
+</html>
